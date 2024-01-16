@@ -12,7 +12,7 @@ function calcularNivel() {
             vitorias = parseInt(vitorias);
             derrotas = parseInt(derrotas);
 
-            // Calcula o saldo de ranqueadas
+            // Calcula o saldo de rankeadas
             const saldoVitorias = vitorias - derrotas;
 
             // Determina o nível com base no saldo de vitórias
@@ -33,7 +33,7 @@ function calcularNivel() {
                 nivel = "Imortal";
             }
 
-            // Exibe a mensagem
+            // Exibe a mensagem a seguir
             console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 
             // Fecha a interface readline
