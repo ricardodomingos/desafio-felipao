@@ -44,3 +44,5 @@ function calcularNivel() {
 
 // Chama a função para calcular o nível com base nas entradas do usuário
 calcularNivel();
+
+// Finalizado dentro do proposto
